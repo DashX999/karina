@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/* font-family: "DM Serif Text", serif; */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #b9b9b945;
+}
+
+
+.back i{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: red;
+}
+
+
+.en-tete{
+    background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 80px 80px;
+}
+
+
+.produits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.produits .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 320px;
+}
+
+
+.produits .box img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.produits .click button{
+    width: 120px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 10px gray,
+    -2px -2Px 10px white;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+
+.produits .click button:active{
+    box-shadow: inset 2px 2px 10px gray,
+    inset -2px -2Px 10px white;
+}
+
+
+.produits .click a{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 10px gray,
+    -2px -2Px 10px white;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+
+.produits .click a:active{
+    box-shadow: inset 2px 2px 10px gray,
+    inset -2px -2Px 10px white;
+}
+
+
+.produits .box .attributs{
+    margin: 10px 10px 20px;
+    display: none;
+    text-align: justify;
+    position: relative;
+}
+
+.produits .box .attributs p:nth-child(1){
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.produits .box .attributs p:nth-child(1) span{
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+.produits .box .attributs button{
+    width: 100%;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}

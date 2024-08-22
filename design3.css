@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/* font-family: "DM Serif Text", serif; */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #b9b9b945;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.back i{
+    font-size: 30px;
+    color: red;
+}
+
+
+/* Design Complet */
+
+
+.block{
+    width: 90%;
+}
+
+
+.block .box{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin:  20px auto;
+    cursor: pointer;
+}
+
+
+.block .box h2{
+    color: gray;
+}
+
+
+.block .box .response{
+    font-family: "DM Serif Text", serif;
+    display: none;
+}
+
+
+.block .box .response p{
+    font-family: "DM Serif Text", serif;
+}
+
+
+.block .box .response button{
+    padding: 8px 15px;
+    color: red;
+    border: 1px solid #b9b9b945;
+    outline: 2px solid inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.block .box .response button i{
+    font-size: 1.2rem;
+}
+
+
+.show{
+    display: block;
+}
